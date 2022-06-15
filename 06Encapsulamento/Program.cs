@@ -1,0 +1,15 @@
+﻿using System;
+
+namespace _06Encapsulamento
+{    public class Program
+    {
+        static void Main(string[] args)
+        {
+            Aluno a = new Aluno();
+            a.Mensagem();
+            
+        }
+
+    }
+
+}
