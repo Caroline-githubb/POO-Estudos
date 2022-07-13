@@ -5,7 +5,7 @@ namespace _01Conceitos
     public class Pessoa //Classe - molde do objeto
     {
         //Atribuitos (Caracteristicas que o objeto vai ter)
-        public string nome;
+        public string nome = "";
         public int idade;
 
         //Metodos (ação)

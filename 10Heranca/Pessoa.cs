@@ -5,7 +5,7 @@ namespace _10Heranca
     class Pessoa
     {
         //Atributos
-        protected string nome;
+        protected string nome = "";
         protected int idade;
 
         //Metodo

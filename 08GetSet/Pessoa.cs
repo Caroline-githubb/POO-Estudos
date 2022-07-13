@@ -5,7 +5,7 @@ namespace _08GetSet
     class Pessoa
     {
         //Atributo nome
-        private string nome;
+        private string nome = "";
 
         //Get e Set - pegar ou enviar valor...não é obrigado usar os dois sempre
         public string Nome // Nome maiusculo
