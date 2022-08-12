@@ -16,9 +16,10 @@ namespace Ex_09.Entities
             Balance = balance;            
         }
 
-        public void Withdraw(double amount)
+        //Colocando a palavra VIRTUAL, permite que esse metodo seja sobrescrito pelas subclasses
+        public virtual void Withdraw(double amount)
         {
-            Balance -= amount;
+            Balance -= amount + 5.0;
         }
         
         public void Deposit(double amount)
